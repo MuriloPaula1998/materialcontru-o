@@ -1,0 +1,69 @@
+body{
+    background-color: azure;
+    margin: 0;
+}
+.pesquisa{
+    text-align: right;
+}
+.logo{
+ width: 300px;
+ height: 20%;
+}
+header{
+ background-color: #122f60;
+}
+.menu{
+text-align: justify;
+    background-color: #6783b4ad;
+    color: red;
+}
+a{
+color: black;
+background-color: white;
+text-align: left;
+justify-content: left;
+
+}
+article{
+    background-color:#6783b4ad;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+.Galeria{
+    color:white;
+    background-color:black ;
+    text-align: justify;
+    margin-right: 85%;
+}
+.fotos {
+   
+    font-size: 35px;
+}
+.fotos:hover{
+    color: green;
+}
+.box{
+    display: flex;
+}
+.comentario{
+    display: block;
+    background-color: rgb(255, 223, 223);
+    box-shadow: rgb(0, 0, 0);
+    text-align: center;
+    margin-right: 15%;
+}
+footer{
+    background-color: #122f60;
+    color: white;
+    font-size: 30px;
+}
+button{
+    font-size: 20px;
+}
+.orçarp{
+    background-color: #6783b4ad;
+}

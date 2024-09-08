@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DivinaObra</title>
+    <link rel="stylesheet" href="../css/pagina.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    
+    <img src="../img/logo.png" class="logo">
+    <br>
+    <button><a href="../html/index.html"><ion-icon name="home"></ion-icon></a></button>
+    <br>
+
+     
+
+     <img src="../img/carro1.png" class="produto"> 
+     <img src="../img/carro2.png" class="produto"> 
+     <img src="../img/carro3.png" class="produto"> 
+     <img src="../img/carro4.png" class="produto"> 
+    
+     <div class="orçarp">
+        <form action="/enviar-orcamento" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+          
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+          
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required><br><br>
+          
+            <label for="servico">Serviço desejado:</label>
+            <select id="servico" name="servico" required>
+              <option value="construcao">Construção</option>
+              <option value="reforma">Reforma</option>
+              <option value="aluguel-maquinas">Aluguel de Máquinas</option>
+              <option value="ferramentas">Venda de Ferramentas</option>
+            </select><br><br>
+          
+            <label for="mensagem">Descrição do projeto:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+          
+            <button type="submit">Solicitar Orçamento</button>
+          </form>
+          </div>
+    
+</body>
+</html>

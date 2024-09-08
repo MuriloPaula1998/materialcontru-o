@@ -1,0 +1,50 @@
+body{
+    background-color:  #122f60;
+    margin: 0;
+}
+
+.logo{
+    width: 300px;
+ height: 20%;
+}
+.produtos-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideUp 1.2s ease-out forwards;
+}
+
+.produto {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.produto img:hover {
+    transform: scale(1.1);
+}
+button{
+    font-size: 20px;
+}
+.orçarp{
+    background-color: #6783b4ad;
+}

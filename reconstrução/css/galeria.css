@@ -1,0 +1,28 @@
+body{
+    background-color:  #122f60;
+    margin: 0;
+}
+.logo{
+    width: 300px;
+ height: 20%;
+}
+.galeria{
+    border: 50%;
+    border: solid black;
+    flex-direction: row;
+    width: 200px;
+    height: 150px;
+    
+}
+div{
+    display: flex;
+}
+.linha1{
+    display: flex;
+}
+.linhna2{
+    display: flex;
+}
+ion-icon{
+    font-size: 30px;
+}

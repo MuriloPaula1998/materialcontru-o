@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DivinaObra</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <img src="../img/logo.png" class="logo">
+    <br>
+    <button><a href="../html/index.html"><ion-icon name="home"></ion-icon></a></button>
+    <form action="/enviar-contato" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Pod Store Brasil - Todos os direitos reservados</p>
+            <div class="social-icons">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon></a>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
